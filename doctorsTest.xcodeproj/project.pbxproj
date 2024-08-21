@@ -8,17 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		8443CF442C6FC6FA0013E38C /* doctorsTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF432C6FC6FA0013E38C /* doctorsTestApp.swift */; };
-		8443CF462C6FC6FA0013E38C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF452C6FC6FA0013E38C /* ContentView.swift */; };
 		8443CF482C6FC6FC0013E38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8443CF472C6FC6FC0013E38C /* Assets.xcassets */; };
 		8443CF4B2C6FC6FC0013E38C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8443CF4A2C6FC6FC0013E38C /* Preview Assets.xcassets */; };
+		8443CF552C6FC8110013E38C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF542C6FC8110013E38C /* MainView.swift */; };
+		8443CF582C6FC8670013E38C /* CatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF572C6FC8670013E38C /* CatalogCell.swift */; };
+		8443CF5B2C6FDEBA0013E38C /* Font + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF5A2C6FDEBA0013E38C /* Font + Extension.swift */; };
+		8443CF5D2C6FE11B0013E38C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF5C2C6FE11B0013E38C /* MainViewModel.swift */; };
+		8443CF602C6FE1470013E38C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF5F2C6FE1470013E38C /* NetworkService.swift */; };
+		8443CF632C6FE15C0013E38C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8443CF622C6FE15C0013E38C /* Alamofire */; };
+		8443CF652C6FE15C0013E38C /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8443CF642C6FE15C0013E38C /* AlamofireDynamic */; };
+		8443CF672C6FE1E10013E38C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF662C6FE1E10013E38C /* Model.swift */; };
+		8443CF692C70F8190013E38C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF682C70F8190013E38C /* DetailView.swift */; };
+		8443CF6C2C7103DA0013E38C /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF6B2C7103DA0013E38C /* TabView.swift */; };
+		8443CF6F2C7106270013E38C /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF6E2C7106270013E38C /* AppointmentView.swift */; };
+		8443CF712C7106440013E38C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF702C7106440013E38C /* ChatView.swift */; };
+		8443CF732C7106560013E38C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CF722C7106560013E38C /* ProfileView.swift */; };
+		8443CFE92C7528E80013E38C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8443CFE82C7528E80013E38C /* Kingfisher */; };
+		8443CFF12C75F1930013E38C /* Date + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8443CFF02C75F1930013E38C /* Date + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8443CF402C6FC6FA0013E38C /* doctorsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doctorsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8443CF432C6FC6FA0013E38C /* doctorsTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doctorsTestApp.swift; sourceTree = "<group>"; };
-		8443CF452C6FC6FA0013E38C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8443CF472C6FC6FC0013E38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8443CF4A2C6FC6FC0013E38C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8443CF542C6FC8110013E38C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8443CF572C6FC8670013E38C /* CatalogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCell.swift; sourceTree = "<group>"; };
+		8443CF5A2C6FDEBA0013E38C /* Font + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font + Extension.swift"; sourceTree = "<group>"; };
+		8443CF5C2C6FE11B0013E38C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		8443CF5F2C6FE1470013E38C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		8443CF662C6FE1E10013E38C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8443CF682C70F8190013E38C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8443CF6B2C7103DA0013E38C /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		8443CF6E2C7106270013E38C /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		8443CF702C7106440013E38C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		8443CF722C7106560013E38C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8443CFF02C75F1930013E38C /* Date + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8443CFE92C7528E80013E38C /* Kingfisher in Frameworks */,
+				8443CF632C6FE15C0013E38C /* Alamofire in Frameworks */,
+				8443CF652C6FE15C0013E38C /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				8443CF432C6FC6FA0013E38C /* doctorsTestApp.swift */,
-				8443CF452C6FC6FA0013E38C /* ContentView.swift */,
+				8443CF6A2C7103CD0013E38C /* TabBar */,
+				8443CF532C6FC7FA0013E38C /* Model */,
+				8443CF522C6FC7F50013E38C /* ViewModel */,
+				8443CF512C6FC7F00013E38C /* Views */,
+				8443CF592C6FDEA20013E38C /* Helper */,
+				8443CF5E2C6FE1340013E38C /* Service */,
 				8443CF472C6FC6FC0013E38C /* Assets.xcassets */,
 				8443CF492C6FC6FC0013E38C /* Preview Content */,
 			);
@@ -65,6 +98,76 @@
 				8443CF4A2C6FC6FC0013E38C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8443CF512C6FC7F00013E38C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF6D2C7105E80013E38C /* Main */,
+				8443CF562C6FC8510013E38C /* Subviews */,
+				8443CF6E2C7106270013E38C /* AppointmentView.swift */,
+				8443CF702C7106440013E38C /* ChatView.swift */,
+				8443CF722C7106560013E38C /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8443CF522C6FC7F50013E38C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF5C2C6FE11B0013E38C /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8443CF532C6FC7FA0013E38C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF662C6FE1E10013E38C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8443CF562C6FC8510013E38C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF572C6FC8670013E38C /* CatalogCell.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		8443CF592C6FDEA20013E38C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF5A2C6FDEBA0013E38C /* Font + Extension.swift */,
+				8443CFF02C75F1930013E38C /* Date + Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8443CF5E2C6FE1340013E38C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF5F2C6FE1470013E38C /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8443CF6A2C7103CD0013E38C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF6B2C7103DA0013E38C /* TabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		8443CF6D2C7105E80013E38C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8443CF542C6FC8110013E38C /* MainView.swift */,
+				8443CF682C70F8190013E38C /* DetailView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +186,11 @@
 			dependencies = (
 			);
 			name = doctorsTest;
+			packageProductDependencies = (
+				8443CF622C6FE15C0013E38C /* Alamofire */,
+				8443CF642C6FE15C0013E38C /* AlamofireDynamic */,
+				8443CFE82C7528E80013E38C /* Kingfisher */,
+			);
 			productName = doctorsTest;
 			productReference = 8443CF402C6FC6FA0013E38C /* doctorsTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +219,10 @@
 				Base,
 			);
 			mainGroup = 8443CF372C6FC6F90013E38C;
+			packageReferences = (
+				8443CF612C6FE15C0013E38C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8443CFE72C7528E70013E38C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 8443CF412C6FC6FA0013E38C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +249,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8443CF462C6FC6FA0013E38C /* ContentView.swift in Sources */,
+				8443CF6F2C7106270013E38C /* AppointmentView.swift in Sources */,
+				8443CFF12C75F1930013E38C /* Date + Extension.swift in Sources */,
+				8443CF672C6FE1E10013E38C /* Model.swift in Sources */,
+				8443CF692C70F8190013E38C /* DetailView.swift in Sources */,
+				8443CF5D2C6FE11B0013E38C /* MainViewModel.swift in Sources */,
+				8443CF732C7106560013E38C /* ProfileView.swift in Sources */,
+				8443CF712C7106440013E38C /* ChatView.swift in Sources */,
+				8443CF5B2C6FDEBA0013E38C /* Font + Extension.swift in Sources */,
+				8443CF582C6FC8670013E38C /* CatalogCell.swift in Sources */,
+				8443CF552C6FC8110013E38C /* MainView.swift in Sources */,
+				8443CF602C6FE1470013E38C /* NetworkService.swift in Sources */,
+				8443CF6C2C7103DA0013E38C /* TabView.swift in Sources */,
 				8443CF442C6FC6FA0013E38C /* doctorsTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +467,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8443CF612C6FE15C0013E38C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		8443CFE72C7528E70013E38C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8443CF622C6FE15C0013E38C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8443CF612C6FE15C0013E38C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8443CF642C6FE15C0013E38C /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8443CF612C6FE15C0013E38C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		8443CFE82C7528E80013E38C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8443CFE72C7528E70013E38C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8443CF382C6FC6F90013E38C /* Project object */;
 }

@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct doctorsTestApp: App {
+    @StateObject var viewModel = MainViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           TabBar()
         }
     }
 }
